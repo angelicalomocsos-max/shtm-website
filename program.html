@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="program">
+    
+    <!--Navigation header-->
+    <header>
+        <div class="nav-container">
+            <div class="logo-brand">
+                
+                <!-- Top Row: SC Logo + SC Text -->
+                <div class="logo-row">
+                    <img src="images/sc logo.png" alt="Southland College Logo" class="brand-logo">
+                    <h1 class="sc-title">SOUTHLAND COLLEGE</h1>
+                </div>
+
+                <!-- Bottom Row: SHTM Logo + Subtitle Text -->
+                <div class="logo-row">
+                    <img src="images/SHTMlogo.png" alt="SHTM Logo" class="brand-logo">
+                    <span class="shtm-subtitle">School of Hospitality and Tourism Management</span>
+                </div>
+            </div>
+
+            <!-- Menu Button -->
+                <button class="menu-btn" onclick="showMenu()">☰</button>
+
+            <!-- Navigation Links -->
+            <div class="nav" id="navLinks">
+
+                <button class="close-btn" onclick="hideMenu()">✕</button>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                
+
+            <div class="dropdown">
+                <button href="program.html" class="dropbtn">Programs ▾</button>
+                <div class="dropdown-content">
+                <a href="program.html">ALL PROGRAMS</a>
+                <a href="hm.html">BSHM | Hospitality Management</a>
+                <a href="tm.html">BSTM | Tourism Management</a>
+                </div>
+            </div>
+
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            </div>
+
+        </div>
+    </header>
+
+   
+<!-- HERO SECTION -->
+<section class="prog-hero" id="program">
+    <div class="prog-hero-inner">
+
+        <div class="prog-hero-text">
+            <span class="prog-tag">DISCOVER YOUR PASSION</span>
+            <h1>Academic Programs</h1>
+            <p>
+                Discover the exciting programs offered by the School of Hospitality and Tourism Management,
+                designed to develop students' knowledge, enhance their practical skills,
+                and prepare them for successful careers in the hospitality and tourism industry.
+            </p>
+        </div>
+
+        <!-- Programs background video (placeholder shows until the video is added) -->
+        <div class="prog-video">
+            <div class="prog-video-placeholder">
+                <span class="plus">+</span>
+                <strong>HM&amp;TM.mp4 &bull; Programs background video</strong>
+                <small>Not supplied &bull; Placeholder</small>
+            </div>
+            <video autoplay muted loop playsinline>
+                <source src="video/hm-tm.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+</section>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+    <a href="home.html">Home</a>
+    <span>&gt;</span>
+    <strong>Academics</strong>
+</div>
+
+<!-- PROGRAM CARDS -->
+<section class="prog-cards">
+    <div class="prog-cards-grid">
+
+        <!-- Hospitality Management -->
+        <article class="prog-card prog-card-hm">
+            <div class="prog-card-img"></div>
+            <div class="prog-card-body">
+                <span class="prog-card-code">BSHM</span>
+                <h2>Hospitality Management</h2>
+                <p>Be the welcoming face of hospitality. Develop your communication and guest service skills.</p>
+                <a href="hm.html" class="prog-btn">Learn More <span>&rarr;</span></a>
+            </div>
+        </article>
+
+        <!-- Tourism Management -->
+        <article class="prog-card prog-card-tm">
+            <div class="prog-card-img"></div>
+            <div class="prog-card-body">
+                <span class="prog-card-code">BSTM</span>
+                <h2>Tourism Management</h2>
+                <p>Explore, discover, and create unforgettable travel experiences around the world.</p>
+                <a href="tm.html" class="prog-btn">Learn More <span>&rarr;</span></a>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- ORGANIZATIONAL CHART -->
+<section class="org-section" id="org-chart">
+    <div class="org-inner">
+
+        <div class="org-header">
+            <span class="org-label">OUR PEOPLE</span>
+            <h2>Organizational Chart</h2>
+            <p>School of Business and Management &middot; Department of Hospitality &amp; Tourism Management &middot; SY 2026-2027</p>
+        </div>
+
+        <div class="org-tree">
+
+            <!-- President -->
+            <div class="org-node org-top">
+                <span class="org-avatar">JV</span>
+                <div class="org-text">
+                    <span class="org-role">President</span>
+                    <strong class="org-name">Juan Antonio Z. Villaluz, USRN, PhD</strong>
+                </div>
+            </div>
+            <div class="org-link"></div>
+
+            <!-- Executive Vice President -->
+            <div class="org-node org-top">
+                <span class="org-avatar">MZ</span>
+                <div class="org-text">
+                    <span class="org-role">Executive Vice President</span>
+                    <strong class="org-name">Miguel M. Zayco</strong>
+                </div>
+            </div>
+            <div class="org-link"></div>
+
+            <!-- Vice President for Academics -->
+            <div class="org-node org-top">
+                <span class="org-avatar">IP</span>
+                <div class="org-text">
+                    <span class="org-role">Vice President for Academics</span>
+                    <strong class="org-name">Imelda M. Patricio, LPT, PhD.</strong>
+                </div>
+            </div>
+            <div class="org-link"></div>
+
+            <!-- Dean + Secretary -->
+            <div class="org-dean-row">
+                <div class="org-node org-top">
+                    <span class="org-avatar">JB</span>
+                    <div class="org-text">
+                        <span class="org-role">Dean &ndash; School of Business &amp; Management</span>
+                        <strong class="org-name">John Jay S. Barbadia, DM</strong>
+                    </div>
+                </div>
+
+                <div class="org-node org-side">
+                    <span class="org-avatar">CL</span>
+                    <div class="org-text">
+                        <span class="org-role">Secretary</span>
+                        <strong class="org-name">Cherry M. Lopez</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Program branches -->
+            <div class="org-branches">
+
+                <!-- BS Hospitality Management -->
+                <div class="org-branch org-hm">
+                    <div class="org-node org-head">
+                        <span class="org-avatar">BT</span>
+                        <div class="org-text">
+                            <span class="org-role">Program Head &ndash; BS Hospitality Management</span>
+                            <strong class="org-name">Brian C. Tamayo, MBA</strong>
+                        </div>
+                    </div>
+
+                    <ul class="org-faculty">
+                        <li class="org-node org-member">
+                            <span class="org-avatar">SB</span>
+                            <div class="org-text">
+                                <strong class="org-name">Shyrlene H. Buatag</strong>
+                                <span class="org-role">Faculty Member</span>
+                            </div>
+                        </li>
+                        <li class="org-node org-member">
+                            <span class="org-avatar">RF</span>
+                            <div class="org-text">
+                                <strong class="org-name">Raybelle M. Flores</strong>
+                                <span class="org-role">Faculty Member</span>
+                            </div>
+                        </li>
+                        <li class="org-node org-member">
+                            <span class="org-avatar">DG</span>
+                            <div class="org-text">
+                                <strong class="org-name">Daneilla T. Gelasan</strong>
+                                <span class="org-role">Faculty Member</span>
+                            </div>
+                        </li>
+                        <li class="org-node org-member">
+                            <span class="org-avatar">MS</span>
+                            <div class="org-text">
+                                <strong class="org-name">Maverick T. Soriano</strong>
+                                <span class="org-role">Faculty Member</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- BS Tourism Management -->
+                <div class="org-branch org-tm">
+                    <div class="org-node org-head">
+                        <span class="org-avatar">JL</span>
+                        <div class="org-text">
+                            <span class="org-role">Program Head &ndash; BS Tourism Management</span>
+                            <strong class="org-name">Jerick H. Lacson, MBA-HTM</strong>
+                        </div>
+                    </div>
+
+                    <ul class="org-faculty">
+                        <li class="org-node org-member">
+                            <span class="org-avatar">JS</span>
+                            <div class="org-text">
+                                <strong class="org-name">Jeramie D. Sabrin</strong>
+                                <span class="org-role">Faculty Member</span>
+                            </div>
+                        </li>
+                        <li class="org-node org-member">
+                            <span class="org-avatar">KL</span>
+                            <div class="org-text">
+                                <strong class="org-name">Kate Cent O. Lim</strong>
+                                <span class="org-role">Faculty Member</span>
+                            </div>
+                        </li>
+                        <li class="org-node org-member">
+                            <span class="org-avatar">LA</span>
+                            <div class="org-text">
+                                <strong class="org-name">Lenday Kate L. Abunyawan</strong>
+                                <span class="org-role">Faculty Member</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- SCHOOL LOGO -->
+        <div class="footer-col footer-brand">
+            <img src="images/sc logo.png" alt="Southland College Logo">
+            <p>Be a Southlander, Be Empowered.</p>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-col">
+            <h5>Quick Links</h5>
+            <a href="about.html">About</a>
+            <a href="program.html">Program</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- CONTACT INFORMATION -->
+        <div class="footer-col">
+            <h5>Get In Touch</h5>
+            <p>Rizal St, Kabankalan City, 6111 Negros Occidental</p>
+            <p>(034) 4713 280</p>
+            <p>info@southlandcollege.edu.ph</p>
+        </div>
+
+        <!-- SOCIAL MEDIA -->
+        <div class="footer-col">
+            <h5>Follow Us</h5>
+            <div class="social-links">
+                <a href="https://www.facebook.com/SCHospitalityAndTourismManagement">f</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom">
+        <p>Department of Hospitality and Tourism Management</p>
+        <p>© 2026 Southland College. All rights reserved.</p>
+
+    </div>
+</footer>
+
+<script>
+        function showMenu() { document.getElementById('navLinks').classList.add('show'); }
+        function hideMenu() { document.getElementById('navLinks').classList.remove('show'); }
+</script>
+
+    
+</body>
+</html>

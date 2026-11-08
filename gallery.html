@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="gallery">
+
+    <!--Navigation header-->
+    <header>
+        <div class="nav-container">
+            <div class="logo-brand">
+
+                <!-- Top Row: SC Logo + SC Text -->
+                <div class="logo-row">
+                    <img src="images/sc logo.png" alt="Southland College Logo" class="brand-logo">
+                    <h1 class="sc-title">SOUTHLAND COLLEGE</h1>
+                </div>
+
+                <!-- Bottom Row: SHTM Logo + Subtitle Text -->
+                <div class="logo-row">
+                    <img src="images/SHTMlogo.png" alt="SHTM Logo" class="brand-logo">
+                    <span class="shtm-subtitle">School of Hospitality and Tourism Management</span>
+                </div>
+            </div>
+
+            <!-- Menu Button -->
+            <button class="menu-btn" onclick="showMenu()">☰</button>
+
+            <!-- Navigation Links -->
+            <div class="nav" id="navLinks">
+
+                <button class="close-btn" onclick="hideMenu()">✕</button>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Programs ▾</button>
+                    <div class="dropdown-content">
+                        <a href="program.html">ALL PROGRAM</a>
+                        <a href="hm.html">BSHM | Hospitality Management</a>
+                        <a href="tm.html">BSTM | Tourism Management</a>
+                    </div>
+                </div>
+
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- GALLERY HERO -->
+    <section class="gallery-hero">
+        <div class="gallery-hero-content">
+            <span class="hero-tag">Land • Sea • Air</span>
+            <h1>SHTM Gallery</h1>
+            <p>Moments, milestones, and memories from the School of Hospitality and Tourism Management.</p>
+        </div>
+    </section>
+
+    <!-- BREADCRUMB -->
+    <div class="breadcrumb">
+        <a href="home.html">Home</a>
+        <span>›</span>
+        <strong>Gallery</strong>
+    </div>
+
+    <!-- PHOTO GALLERY -->
+    <section class="photo-section">
+
+        <div class="section-title">
+            <span class="eyebrow">CAPTURED MOMENTS</span>
+            <h2>Life at <span>SHTM</span></h2>
+            <p>Browse photos from our classrooms, kitchens, bars, and field trips.</p>
+        </div>
+
+        <!-- Filter buttons -->
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="events">Events</button>
+            <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+            <button class="filter-btn" data-filter="tourism">Tourism</button>
+        </div>
+
+        <!-- Photo grid -->
+        <div class="photo-grid">
+
+            <figure class="photo-item" data-category="hospitality">
+                <img src="images/culinary.jpg" alt="Hospitality Management activity">
+                <figcaption>
+                    <span class="photo-tag">Hospitality</span>
+                    <h3>Culinary Laboratory</h3>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-item" data-category="tourism">
+                <img src="images/tour.jpg" alt="Tourism Management activity">
+                <figcaption>
+                    <span class="photo-tag">Tourism</span>
+                    <h3>Tour Guiding Practice</h3>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-item" data-category="events">
+                <img src="images/skillOlympics.jpg" alt="Department event">
+                <figcaption>
+                    <span class="photo-tag">Events</span>
+                    <h3>SKILLS OLYMPICS 2026</h3>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-item" data-category="hospitality">
+                <img src="images/bar.jpeg" alt="Bar and beverage training">
+                <figcaption>
+                    <span class="photo-tag">Hospitality</span>
+                    <h3>Bar &amp; Beverage Training</h3>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-item" data-category="tourism">
+                <img src="images/educational.jpg" alt="Educational tour">
+                <figcaption>
+                    <span class="photo-tag">Tourism</span>
+                    <h3>Educational Tour</h3>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-item" data-category="events">
+                <img src="images/skillhm.jpg" alt="Student competition">
+                <figcaption>
+                    <span class="photo-tag">Events</span>
+                    <h3>Skills Competition HM</h3>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-item" data-category="hospitality">
+                <img src="images/frontOffice.jpg" alt="Front office simulation">
+                <figcaption>
+                    <span class="photo-tag">Hospitality</span>
+                    <h3>Front Office Simulation</h3>
+                </figcaption>
+            </figure>
+
+            <figure class="photo-item" data-category="events">
+                <img src="images/skilltm.jpg" alt="Skills Competition TM">
+                <figcaption>
+                    <span class="photo-tag">Events</span>
+                    <h3>Skills Competition TM</h3>
+                </figcaption>
+            </figure>
+
+        </div>
+    </section>
+
+    <!-- EVENTS & PROGRAMS -->
+    <section class="events-section">
+
+        <div class="section-title light">
+            <span class="eyebrow">WHAT'S HAPPENING</span>
+            <h2>Events &amp; <span>Programs</span></h2>
+            <p>Activities and department programs for our students and community.</p>
+        </div>
+
+        <div class="events-container">
+
+            <article class="event-card">
+                <div class="event-thumb" aria-hidden="true"><img src="images/pinkpanthers.jpeg" alt="SportsFest 2026"></div>
+                <div class="event-date">
+                    <strong>04</strong>
+                    <span>OCT</span>
+                </div>
+                <div class="event-info">
+                    <h3>𝑷𝑰𝑵𝑲 𝑷𝑨𝑵𝑻𝑯𝑬𝑹𝑺, 𝑻𝑯𝑨𝑻’𝑺 𝑨 𝑾𝑹𝑨𝑷! SportsFest 2026</h3>
+                    <p>After five days of 𝒄𝒉𝒆𝒆𝒓𝒔, 𝒃𝒂𝒕𝒕𝒍𝒆𝒔, 𝒊𝒏𝒕𝒆𝒏𝒔𝒆 𝒈𝒂𝒎𝒆𝒔, and unforgettable moments, the 𝑷𝒊𝒏𝒌 𝑷𝒂𝒏𝒕𝒉𝒆𝒓𝒔 proudly take home</p>
+                    <small>📍 Campus Grounds</small>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="event-thumb" aria-hidden="true"><img src="images/wentToTheWentEvent.jpeg" alt="wentToTheWentEvent"></div>
+                <div class="event-date">
+                    <strong>18</strong>
+                    <span>SEPT</span>
+                </div>
+                <div class="event-info">
+                    <h3>𝑾𝑯𝑶𝑶𝑷𝑺—𝑾𝑹𝑶𝑵𝑮 𝑬𝑽𝑬𝑵𝑻, 𝑹𝑰𝑮𝑯𝑻 𝑴𝑬𝑴𝑶𝑹𝑰𝑬𝑺!</h3>
+                    <p>this acquaintance party was full of laughter, new friendships, and unexpected team rivalries!</p>
+                    <small>📍 Campus Grounds</small>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="event-thumb" aria-hidden="true"><img src="images/Flairtending Competition.jpeg" alt="Flairtending Competition"></div>
+                <div class="event-date">
+                    <strong>14</strong>
+                    <span>SEPT</span>
+                </div>
+                <div class="event-info">
+                    <h3>Flairtending Competition </h3>
+                    <p>Our students brought serious creativity, flair, and energy to their performance.</p>
+                    <small>📍 Kabankalan City Tourism Week Celebration</small>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="event-thumb" aria-hidden="true"><img src="images/first-laboratory.jpeg" alt="first-laboratory"></div>
+                <div class="event-date">
+                    <strong>20</strong>
+                    <span>AUG</span>
+                </div>
+                <div class="event-info">
+                    <h3>𝟏𝐒𝐓 𝐋𝐀𝐁𝐎𝐑𝐀𝐓𝐎𝐑𝐘 𝐒𝐔𝐂𝐂𝐄𝐒𝐒!</h3>
+                    <p>Our first laboratory in 𝑷𝒉𝒊𝒍𝒊𝒑𝒑𝒊𝒏𝒆 𝑹𝒆𝒈𝒊𝒐𝒏𝒂𝒍 𝑪𝒖𝒊𝒔𝒊𝒏𝒆 was a success! It was a fun and meaningful experience filled with learning, teamwork, and new skills.</p>
+                    <small>📍SHTM Laboratory</small>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="event-thumb" aria-hidden="true"><img src="images/SHTM SKILLS OLYMPICS 2026.jpg" alt="SHTM SKILLS OLYMPICS 2026"></div>
+                <div class="event-date">
+                    <strong>29</strong>
+                    <span>APRIL</span>
+                </div>
+                <div class="event-info">
+                    <h3>SHTM SKILLS OLYMPICS 2026: FLAIR TENDING</h3>
+                    <p>Energy and excitement soared as the Flair Tending competition of SHTM Skills Olympics 2026 electrified the audience.</p>
+                    <small>📍CityMall Kabankalan City</small>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+        <img src="" alt="" id="lightboxImg">
+        <p id="lightboxCaption"></p>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- SCHOOL LOGO -->
+            <div class="footer-col footer-brand">
+                <img src="images/sc logo.png" alt="Southland College Logo">
+                <p>Be a Southlander, Be Empowered.</p>
+            </div>
+
+            <!-- QUICK LINKS -->
+            <div class="footer-col">
+                <h5>Quick Links</h5>
+                <a href="about.html">About</a>
+                <a href="program.html">Program</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <!-- CONTACT INFORMATION -->
+            <div class="footer-col">
+                <h5>Get In Touch</h5>
+                <p>Rizal St, Kabankalan City, 6111 Negros Occidental</p>
+                <p>(034) 4713 280</p>
+                <p>info@southlandcollege.edu.ph</p>
+            </div>
+
+            <!-- SOCIAL MEDIA -->
+            <div class="footer-col">
+                <h5>Follow Us</h5>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/SCHospitalityAndTourismManagement">f</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+            <p>Department of Hospitality and Tourism Management</p>
+            <p>© 2026 Southland College. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        /* Mobile menu */
+        function showMenu() { document.getElementById("navLinks").style.right = "0"; }
+        function hideMenu() { document.getElementById("navLinks").style.right = "-200px"; }
+
+        /* Missing images: show a pink placeholder instead of a broken icon */
+        document.querySelectorAll(".photo-item img, .blog-thumb img").forEach(function (img) {
+            img.addEventListener("error", function () {
+                img.style.display = "none";
+                img.parentElement.classList.add("no-image");
+            });
+        });
+
+        /* Filter */
+        var buttons = document.querySelectorAll(".filter-btn");
+        var items = document.querySelectorAll(".photo-item");
+
+        buttons.forEach(function (btn) {
+            btn.addEventListener("click", function () {
+                buttons.forEach(function (b) { b.classList.remove("active"); });
+                btn.classList.add("active");
+                var filter = btn.dataset.filter;
+                items.forEach(function (item) {
+                    var show = filter === "all" || item.dataset.category === filter;
+                    item.classList.toggle("hide", !show);
+                });
+            });
+        });
+
+        /* Lightbox */
+        var lightbox = document.getElementById("lightbox");
+        var lightboxImg = document.getElementById("lightboxImg");
+        var lightboxCaption = document.getElementById("lightboxCaption");
+
+        items.forEach(function (item) {
+            item.addEventListener("click", function () {
+                var img = item.querySelector("img");
+                if (img.style.display === "none") return;
+                lightboxImg.src = img.src;
+                lightboxImg.alt = img.alt;
+                lightboxCaption.textContent = item.querySelector("h3").textContent;
+                lightbox.classList.add("open");
+            });
+        });
+
+        function closeLightbox() { lightbox.classList.remove("open"); }
+        document.getElementById("lightboxClose").addEventListener("click", closeLightbox);
+        lightbox.addEventListener("click", function (e) { if (e.target === lightbox) closeLightbox(); });
+        document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLightbox(); });
+    </script>
+
+</body>
+</html>

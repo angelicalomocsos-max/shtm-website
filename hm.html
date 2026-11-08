@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitality Mangement</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="hm">
+    <!--Navigation header-->
+    <header>
+        <div class="nav-container">
+            <div class="logo-brand">
+                
+                <!-- Top Row: SC Logo + SC Text -->
+                <div class="logo-row">
+                    <img src="images/sc logo.png" alt="Southland College Logo" class="brand-logo">
+                    <h1 class="sc-title">SOUTHLAND COLLEGE</h1>
+                </div>
+
+                <!-- Bottom Row: SHTM Logo + Subtitle Text -->
+                <div class="logo-row">
+                    <img src="images/SHTMlogo.png" alt="SHTM Logo" class="brand-logo">
+                    <span class="shtm-subtitle">School of Hospitality and Tourism Management</span>
+                </div>
+            </div>
+
+                <!-- Menu Button -->
+                <button class="menu-btn" onclick="showMenu()">☰</button>
+
+            <!-- Navigation Links -->
+            <div class="nav" id="navLinks">
+
+                <button class="close-btn" onclick="hideMenu()">✕</button>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                
+
+            <div class="dropdown">
+                <button href="program.html" class="dropbtn">Programs ▾</button>
+                <div class="dropdown-content">
+                <a href="program.html">ALL PROGRAMS</a>
+                <a href="hm.html">BSHM | Hospitality Management</a>
+                <a href="tm.html">BSTM | Tourism Management</a>
+                </div>
+            </div>
+
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            </div>
+
+        </div>
+    </header>
+<!-- HERO SECTION -->
+<section class="hm-hero" id="program">
+
+    <!-- Background Image -->
+    <img src="images/_.png" alt="Hospitality Mangement" class="hm-image">
+
+    <!-- Background Overlay -->
+    <div class="hero-overlay-hm"></div>
+
+    <!-- CENTER LOGO -->
+    <div class="hm-logo">
+        <img src="images/hm logo.png" alt="SHTM Logo">
+    </div>
+
+    <!-- Hero Content -->
+    <div class="hm-content-hero">
+        <h1>Bachelor of Science in Hospitality Management</h1>
+        <p>
+            Discover our Hospitality Management program, 
+            designed to equip students with essential knowledge, 
+            practical skills, and professional experience in hotel operations, 
+            food and beverage services, and guest relations, preparing them for successful careers in the hospitality industry.
+        </p>
+    </div>
+</section>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+    <a href="home.html">Home</a>
+    <span>&rsaquo;</span>
+    <a href="program.html">Programs</a>
+    <span>&rsaquo;</span>
+    <strong>BSHM</strong>
+</div>
+
+<!-- ABOUT SHTM SECTION -->
+<section class="about-bshm">
+
+    <!-- PROGRAM DESCRIPTION -->
+    <div class="about-description-hm">
+        <h2>About Our Program</h2>
+        <p>
+            Bachelor of Science in Hospitality Management (BSHM) is a four-year degree program that covers the process of conception, planning, development, human resource and management of the different aspects of hotel, restaurant, and resort operations. 
+            The program provides students with technical skills, as well as knowledge in marketing, finance, budgeting, staffing and other fields of business. The program also aims to enhance entrepreneurship skills.
+        </p>
+    </div>
+
+    <!-- VISION AND MISSION -->
+    <div class="hm-container">
+
+        <!-- VISION -->
+        <div class="hm-card">
+            <div class="hm-header-v">
+                <h3>VISION</h3>
+            </div>
+
+            <div class="hm-content">
+                <p>
+                    The Hospitality Management program is dedicated to imparting quality higher education which develops students to become experienced and proficient life-long professionals with outstanding managerial skills to compete globally.
+                </p>
+            </div>
+        </div>
+
+        <!-- MISSION -->
+        <div class="hm-card">
+            <div class="hm-header-m">
+                <h3>MISSION</h3>
+            </div>
+
+            <div class="hm-content">
+                <p>
+                    The BSHM program is committed to develop, transform and produce globally competent leaders in the hospitality industry through the use of comprehensive learning resources, state-of-the-art facilities and with the guidance of proficient instruction.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- CALL TO ACTION -->
+<section class="hm-cta">
+    <h2>Your journey starts here.</h2>
+    <a href="contact.html" class="hm-cta-btn">Apply Now</a>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- SCHOOL LOGO -->
+        <div class="footer-col footer-brand">
+            <img src="images/sc logo.png" alt="Southland College Logo">
+            <p>Be a Southlander, Be Empowered.</p>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-col">
+            <h5>Quick Links</h5>
+            <a href="about.html">About</a>
+            <a href="program.html">Program</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- CONTACT INFORMATION -->
+        <div class="footer-col">
+            <h5>Get In Touch</h5>
+            <p>Rizal St, Kabankalan City, 6111 Negros Occidental</p>
+            <p>(034) 4713 280</p>
+            <p>info@southlandcollege.edu.ph</p>
+        </div>
+
+        <!-- SOCIAL MEDIA -->
+        <div class="footer-col">
+            <h5>Follow Us</h5>
+            <div class="social-links">
+                <a href="https://www.facebook.com/SCHospitalityAndTourismManagement">f</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom">
+        <p>Department of Hospitalty and Tourism Managemnt</p>
+        <p>© 2026 Southland College. All rights reserved.</p>
+
+    </div>
+</footer>
+
+<script>
+        function showMenu() { document.getElementById('navLinks').classList.add('show'); }
+        function hideMenu() { document.getElementById('navLinks').classList.remove('show'); }
+</script>
+
+</body>
+</html>
