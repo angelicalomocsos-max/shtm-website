@@ -83,7 +83,7 @@ header {
   padding: 0.8rem 2rem;
 }
 
-.logo-brand { display: flex; flex-direction: column; gap: 6px; }
+.logo-brand { display: flex; flex-direction: row; gap: 6px; }
 .logo-row { display: flex; align-items: center; gap: 12px; }
 .brand-logo { height: 40px; width: auto; object-fit: contain; }
 
