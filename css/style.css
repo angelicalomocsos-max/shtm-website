@@ -474,8 +474,8 @@ body.contact .footer-col .social-links a:hover { background: var(--maroon); colo
   box-shadow: 0 16px 34px rgba(57, 0, 29, 0.18);
 }
 
-.prog-card-hm { --accent: #b8860b; }
-.prog-card-tm { --accent: #268f7e; }
+.prog-card-hm { --accent:  #D60054; }
+.prog-card-tm { --accent:  #D60054; }
 
 .prog-card-img {
   height: 210px;
