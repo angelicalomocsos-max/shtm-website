@@ -38,13 +38,15 @@
   --hm-gold: --primary-color;
   --hm-dark-gold: --primary-dark;
   --hm-border:--primary-light;
-  --hm-gradient: linear-gradient(135deg, #000000 0%, #5A4300 55%, #FDE701 100%);
+  --hm-gradient: linear-gradient(90deg, #141414 0%, #2a1220 55%, #4a1430 100%);
 
   /* Tourism Management theme */
-  --tm-dark: #164E42;
-  --tm-mid: #2E9278;
-  --tm-light: #65A396;
-  --tm-border: #268F7E;
+  --tm-dark: --primary-color;
+  --tm-mid: --primary-dark ;
+  --tm-light:--primary-light;
+  --tm-border:--primary-dark;
+   --tm-gradient: linear-gradient(90deg, #141414 0%, #2a1220 55%, #4a1430 100%);
+
 }
 
 * {
