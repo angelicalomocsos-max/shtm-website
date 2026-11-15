@@ -34,20 +34,20 @@
   --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
 
-  /* Hospitality Management theme */
-  --hm-gold: --primary-color;
-  --hm-dark-gold: --primary-dark;
-  --hm-light: --primary-light;
-  --hm-border:--primary-dark;
+  /* HM */
+  --hm-gold: #FF0066;
+  --hm-dark-gold: #D60054;
+  --hm-border: #FF3385;
   --hm-gradient: linear-gradient(90deg, #141414 0%, #2a1220 55%, #4a1430 100%);
 
-  /* Tourism Management theme */
- --tm-dark: --primary-color;
-  --tm-mid: --primary-dark;
-  --tm-light: --primary-light;
-  --tm-border: --primary-dark;
+  /* TM */
+  --tm-dark: #FF0066;
+  --tm-mid: #D60054;
+  --tm-light: #FF3385;
+  --tm-border: #D60054;
   --tm-gradient: linear-gradient(90deg, #141414 0%, #2a1220 55%, #4a1430 100%);
 }
+
 
 * {
   margin: 0;
@@ -1056,8 +1056,8 @@ body.program .prog-cards { background: #fff5f9; }
   transform: translateX(-50%);
 }
 
-.org-hm { --accent: #b8860b; }
-.org-tm { --accent: #268f7e; }
+.org-hm { background: linear-gradient(135deg, #ff0066, #1a0010); }
+.org-tm { background: linear-gradient(135deg, #ff0066, #1a0010); }
 
 .org-hm .org-avatar { background: linear-gradient(135deg, #000000, #b8860b); }
 .org-tm .org-avatar { background: linear-gradient(135deg, #164e42, #2e9278); }
