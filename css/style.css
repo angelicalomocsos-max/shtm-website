@@ -341,7 +341,6 @@ body.contact .footer-col .social-links a:hover { background: var(--maroon); colo
   object-fit: cover;
   display: block;
 }
-
 /* ----- Welcome / about section ----- */
 .hero {
   display: grid;
