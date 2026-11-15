@@ -485,11 +485,11 @@ body.contact .footer-col .social-links a:hover { background: var(--maroon); colo
 }
 
 .prog-card-hm .prog-card-img {
-  background-image: url('../images/hm1.png'), linear-gradient(135deg, #000000, #5a4300 60%, #b8860b);
+  background-image: url('../images/hm1.png'), linear-gradient(135deg, #ff0066, #1a0010);
 }
 
 .prog-card-tm .prog-card-img {
-  background-image: url('../images/tm1.png'), linear-gradient(135deg, #164e42, #2e9278 60%, #65a396);
+  background-image: url('../images/tm1.png'), linear-gradient(135deg, #ff0066, #1a0010);
 }
 
 .prog-card-body { padding: 20px 24px 26px; }
@@ -523,7 +523,7 @@ body.contact .footer-col .social-links a:hover { background: var(--maroon); colo
   gap: 8px;
   padding: 10px 22px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #8b1252, #3d1d57);
+  background: linear-gradient(135deg, #ff0066, #1a0010);
   color: #ffffff;
   font-size: 13px;
   font-weight: 700;
