@@ -37,15 +37,16 @@
   /* Hospitality Management theme */
   --hm-gold: --primary-color;
   --hm-dark-gold: --primary-dark;
-  --hm-border:--primary-light;
+  --hm-light: --primary-light;
+  --hm-border:--primary-dark;
   --hm-gradient: linear-gradient(90deg, #141414 0%, #2a1220 55%, #4a1430 100%);
 
   /* Tourism Management theme */
- --tm-dark: var(--primary-color);
-  --tm-mid: var(--primary-dark);
-  --tm-light: var(--primary-light);
-  --tm-border: var(--primary-dark);
-  --tm-gradient: linear-gradient(90deg, #1A1A1A 0%, #39001d 55%, #D60054 100%);
+ --tm-dark: --primary-color;
+  --tm-mid: --primary-dark;
+  --tm-light: --primary-light;
+  --tm-border: --primary-dark;
+  --tm-gradient: linear-gradient(90deg, #141414 0%, #2a1220 55%, #4a1430 100%);
 }
 
 * {
