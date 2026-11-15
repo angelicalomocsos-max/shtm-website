@@ -35,9 +35,9 @@
   --transition: all 0.3s ease;
 
   /* Hospitality Management theme */
-  --hm-gold: #FDE701;
-  --hm-dark-gold: #B8860B;
-  --hm-border: #FFB61B;
+  --hm-gold: --primary-color;
+  --hm-dark-gold: --primary-dark;
+  --hm-border:--primary-light;
   --hm-gradient: linear-gradient(135deg, #000000 0%, #5A4300 55%, #FDE701 100%);
 
   /* Tourism Management theme */
